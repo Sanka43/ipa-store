@@ -44,6 +44,11 @@
     return div.innerHTML;
   }
 
+  function safeDownloadFilename(profile) {
+    const base = (profile.name || profile.uuid || 'profile').replace(/[^a-zA-Z0-9-_]/g, '-').replace(/-+/g, '-').slice(0, 80);
+    return (base || 'profile') + '.mobileconfig';
+  }
+
   function formatBytes(n) {
     if (n == null || n === '') return '';
     const num = parseInt(n, 10);
@@ -119,17 +124,18 @@
     const name = escapeHtml(profile.name || 'Unnamed profile');
     const desc = escapeHtml((profile.description || '').slice(0, 160));
     const url = profile.download_url || ('deta/mobileconfigs/' + (profile.uuid || '') + '.mobileconfig');
+    const filename = safeDownloadFilename(profile);
 
     const li = document.createElement('li');
     li.innerHTML =
-      '<a class="card" href="' + escapeHtml(url) + '" download>' +
+      '<div class="card">' +
         '<h2 class="card-title">' + name + '</h2>' +
         (profile.organization ? '<p class="card-meta">' + escapeHtml(profile.organization) + '</p>' : '') +
         (desc ? '<p class="card-desc">' + desc + '</p>' : '') +
         '<div class="card-actions">' +
-          '<span class="btn btn-primary">Install profile</span>' +
+          '<a class="btn btn-primary profile-install" href="' + escapeHtml(url) + '" download="' + escapeHtml(filename) + '" data-profile-url="' + escapeHtml(url) + '" data-profile-filename="' + escapeHtml(filename) + '">Install profile</a>' +
         '</div>' +
-      '</a>';
+      '</div>';
     return li;
   }
 
@@ -261,6 +267,48 @@
     loadMoreBtn.addEventListener('click', function () {
       appsPage++;
       renderAppsList(true);
+    });
+  }
+
+  function isSameOrigin(href) {
+    try {
+      return new URL(href, window.location.href).origin === window.location.origin;
+    } catch (_) {
+      return true;
+    }
+  }
+
+  function downloadProfileFile(url, filename) {
+    fetch(url, { mode: 'cors' })
+      .then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.blob();
+      })
+      .then(function (blob) {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        a.rel = 'noopener';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(a.href);
+      })
+      .catch(function () {
+        window.open(url, '_blank', 'noopener');
+      });
+  }
+
+  if (profilesList) {
+    profilesList.addEventListener('click', function (e) {
+      const link = e.target.closest('a.profile-install');
+      if (!link) return;
+      const url = link.getAttribute('data-profile-url') || link.href;
+      const filename = link.getAttribute('data-profile-filename') || 'profile.mobileconfig';
+      if (!isSameOrigin(url)) {
+        e.preventDefault();
+        downloadProfileFile(url, filename);
+      }
     });
   }
 
