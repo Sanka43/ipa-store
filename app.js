@@ -270,6 +270,27 @@
     });
   }
 
+  function installProfileFile(url, filename) {
+    const opts = isSameOrigin(url) ? {} : { mode: 'cors' };
+    fetch(url, opts)
+      .then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        return r.blob();
+      })
+      .then(function (blob) {
+        const file = new File([blob], filename, { type: blob.type || 'application/x-apple-aspen-config' });
+        if (typeof navigator !== 'undefined' && navigator.share && navigator.canShare && navigator.canShare({ files: [file] })) {
+          return navigator.share({ files: [file], title: filename }).catch(function () {
+            triggerBlobDownload(blob, filename);
+          });
+        }
+        triggerBlobDownload(blob, filename);
+      })
+      .catch(function () {
+        window.open(url, '_blank', 'noopener');
+      });
+  }
+
   function isSameOrigin(href) {
     try {
       return new URL(href, window.location.href).origin === window.location.origin;
@@ -278,37 +299,25 @@
     }
   }
 
-  function downloadProfileFile(url, filename) {
-    fetch(url, { mode: 'cors' })
-      .then(function (r) {
-        if (!r.ok) throw new Error(r.status);
-        return r.blob();
-      })
-      .then(function (blob) {
-        const a = document.createElement('a');
-        a.href = URL.createObjectURL(blob);
-        a.download = filename;
-        a.rel = 'noopener';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(a.href);
-      })
-      .catch(function () {
-        window.open(url, '_blank', 'noopener');
-      });
+  function triggerBlobDownload(blob, filename) {
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    a.rel = 'noopener';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(a.href);
   }
 
   if (profilesList) {
     profilesList.addEventListener('click', function (e) {
       const link = e.target.closest('a.profile-install');
       if (!link) return;
+      e.preventDefault();
       const url = link.getAttribute('data-profile-url') || link.href;
       const filename = link.getAttribute('data-profile-filename') || 'profile.mobileconfig';
-      if (!isSameOrigin(url)) {
-        e.preventDefault();
-        downloadProfileFile(url, filename);
-      }
+      installProfileFile(url, filename);
     });
   }
 
