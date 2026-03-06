@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a0d:2a00:1::2</string>
+					<string>2a0d:2a00:2::2</string>
+					<string>185.228.168.9</string>
+					<string>185.228.169.9</string>
+				</array>
+				<key>ServerName</key>
+				<string>security-filter-dns.cleanbrowsing.org</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Cleanbrowsing Security Filter Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>Cleanbrowsing Security Filter Encrypted DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.a35a5934-ac4d-576a-9abc-d457e4bb083f</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>A35A5934-AC4D-576A-9ABC-D457E4BB083F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use Cleanbrowsing Security Filter over TLS
+Filters malware.
+Server location: 🇺🇸.
+Filtering: yes</string>
+	<key>PayloadDisplayName</key>
+	<string>Cleanbrowsing Security Filter Encrypted DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A27A94EB-7A6C-501D-ABE1-6C56E6B79CEB</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

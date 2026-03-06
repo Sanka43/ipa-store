@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>AstropadStudioPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.AstropadStudioPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>BAF989A6-85FC-4869-95D8-345A52FFCDA9</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>AstropadStudioPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>33BF58A5-019A-4CE3-8749-991594326CDA</string>
+			<key>PayloadOrganization</key>
+			<string>Emily</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>5AA2A543-C3E7-42B5-88F8-1B13D18A47B8</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.astro-hq.AstropadStudioMac" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8356ZZ8Y5K")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.astro-hq.AstropadStudioMac</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>ScreenCapture</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.astro-hq.AstropadStudioMac" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "8356ZZ8Y5K")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.astro-hq.AstropadStudioMac</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>	
+			</dict>
+		</dict>
+
+	</array>
+</dict>
+</plist>

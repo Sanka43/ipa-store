@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+	<string>CompressorPrefs</string>
+	
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.CompressorPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>166BBD7A-931C-41BA-B851-5C894B58B692</string>
+
+    <key>PayloadScope</key>
+	<string>System</string>
+
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>CompressorPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>FBDD753A-DA6F-46CD-928C-6E23B1828A37</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>B39831B4-2710-4718-AB2F-111B728CAFC7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyDesktopFolder</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+                            <string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.Compressor"</string>
+                        <key>Comment</key>
+                        <string></string>
+                        <key>Identifier</key>
+                        <string>com.apple.Compressor</string>
+                        <key>IdentifierType</key>
+                        <string>bundleID</string>
+                        <key>StaticCode</key>
+                        <false/>
+					</dict>
+				</array>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+                            <string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.Compressor"</string>
+                        <key>Comment</key>
+                        <string></string>
+                        <key>Identifier</key>
+                        <string>com.apple.Compressor</string>
+                        <key>IdentifierType</key>
+                        <string>bundleID</string>
+                        <key>StaticCode</key>
+                        <false/>
+					</dict>
+				</array>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+                            <string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.Compressor"</string>
+                        <key>Comment</key>
+                        <string></string>
+                        <key>Identifier</key>
+                        <string>com.apple.Compressor</string>
+                        <key>IdentifierType</key>
+                        <string>bundleID</string>
+                        <key>StaticCode</key>
+                        <false/>
+					</dict>
+				</array>
+				<key>SystemPolicyNetworkVolumes</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+                            <string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.Compressor"</string>
+                        <key>Comment</key>
+                        <string></string>
+                        <key>Identifier</key>
+                        <string>com.apple.Compressor</string>
+                        <key>IdentifierType</key>
+                        <string>bundleID</string>
+                        <key>StaticCode</key>
+                        <false/>
+					</dict>
+				</array>
+				<key>SystemPolicyRemovableVolumes</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+                            <string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.Compressor"</string>
+                        <key>Comment</key>
+                        <string></string>
+                        <key>Identifier</key>
+                        <string>com.apple.Compressor</string>
+                        <key>IdentifierType</key>
+                        <string>bundleID</string>
+                        <key>StaticCode</key>
+                        <false/>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

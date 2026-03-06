@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+
+    <array>
+      <!-- Connect to VPN when connected to untrusted networks -->
+      <dict>
+        
+        <key>UserDefinedName</key>
+        <string>Full tunnel via MyServer</string> <!-- This is shown in Settings -> VPN -->
+        
+        <key>PayloadDisplayName</key>
+        <string>Full tunnel via MyServer</string> <!-- This is shown in Settings -> General -> Profile -> [Profile Name] -> More Details -> VPN Settings -->
+        
+        <key>PayloadIdentifier</key>
+        <string>wtf.beh.vpn.wifi.untrusted</string>
+        
+        <key>PayloadUUID</key>
+        <string>8570A5C2-FCD0-4182-AB4D-84510E011650</string>
+        
+        <key>VPNType</key>
+        <string>VPN</string>
+        
+        <key>VPNSubType</key>
+        <string>com.wireguard.ios</string>
+        
+        <key>VendorConfig</key>
+        <dict>
+          <key>WgQuickConfig</key>
+          <!-- Change to your wireguard config below -->
+          <string>
+          [Interface]
+          PrivateKey = MYPRIVATEKEY
+          Address = 192.168.233.2/32, fd00:192:168:233::2/64
+          DNS = 94.16.114.254, 46.182.19.48, 2a03:4000:28:365::1, 2a02:2970:1002::18
+
+          [Peer]
+          PublicKey = MYPUBLICKEY
+          AllowedIPs = ::/0, 0.0.0.0/0
+          Endpoint = vpn.example.com:51820
+          PersistentKeepalive = 25
+          </string>
+        </dict>
+        
+        <!-- Adjust your VPN server below -->
+        <key>VPN</key>
+        <dict>
+           <key>RemoteAddress</key>
+           <string>vpn.example.com:51820</string>
+           <key>AuthenticationMethod</key>
+           <string>Password</string>
+        </dict>
+        
+        <key>OnDemandEnabled</key>
+        <integer>1</integer>
+
+        <key>OnDemandRules</key>
+        <array>
+          
+          <!-- VPN state for trusted WiFi networks -->
+          <dict>
+            <key>InterfaceTypeMatch</key>
+            <string>WiFi</string>
+            <key>SSIDMatch</key>
+            <array>
+              <!-- Add your trusted WiFi SSIDs below -->
+              <string>Trusted SSID 1</string>
+              <string>Trusted SSID 2</string>
+              <string>Trusted SSID 3</string>
+              <string>Trusted SSID 4</string>
+              <string>Trusted SSID 5</string>
+            </array>
+            <key>Action</key>
+            <string>Disconnect</string>
+          </dict>
+          
+          <!-- VPN state for all other WiFi networks -->
+          <dict>
+            <key>InterfaceTypeMatch</key>
+            <string>WiFi</string>
+            <key>Action</key>
+            <string>Connect</string>
+          </dict>
+
+          <!-- VPN default state, matches when connected via cellular -->
+          <dict>
+            <key>Action</key>
+            <string>Disconnect</string>
+          </dict>
+
+        </array>
+
+        <key>PayloadType</key>
+        <string>com.apple.vpn.managed</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+      </dict>
+
+    </array>
+
+    <key>PayloadDisplayName</key>
+    <string>VPN for untrusted networks</string> <!-- This is the profile name -->
+    <key>PayloadIdentifier</key>
+    <string>wtf.beh.vpn.wifi.config.646E61D5-B35A-4E50-B6C4-2FBDF22F7A99</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false />
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>42C73AB4-5215-456B-B4A3-31BEE70674BA</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>

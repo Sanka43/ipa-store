@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>ImageCapturePrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.ImageCapturePrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>F6C9153E-4A19-4309-9670-7D876968559E</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.Image_Capture</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.ImageCapturePrefs.FAD015CF-6E79-4D2D-AEE0-7315925E4D4D</string>
+
+			<key>PayloadUUID</key>
+			<string>5BB86200-3E10-4CCB-970A-01E301ABC40D</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>IK_Accessory_selectedTag</key>
+			<integer>1000</integer>
+			<key>IK_CreateSingleDocument</key>
+			<false/>
+			<key>IK_DetectSeparateItemsScanMode</key>
+			<integer>1</integer>
+			<key>IK_DocFeederEvenPageOrientation</key>
+			<integer>1</integer>
+			<key>IK_DocFeederOddPageOrientation</key>
+			<integer>1</integer>
+			<key>IK_DocumentKind_0</key>
+			<integer>2</integer>
+			<key>IK_FileFormatTag</key>
+			<integer>1</integer>
+			<key>IK_FlatbedOrientation</key>
+			<integer>1</integer>
+			<key>IK_MeasurementUnit</key>
+			<integer>0</integer>
+			<key>IK_ScanBitDepth</key>
+			<integer>16</integer>
+			<key>IK_ScanResolution</key>
+			<integer>300</integer>
+			<key>IK_ScannerDocumentType</key>
+			<integer>3</integer>
+			<key>IK_Scanner_selectedPathType</key>
+			<integer>2</integer>
+			<key>IK_Scanner_selectedTag</key>
+			<integer>1002</integer>
+			<key>IK_UseCustomScanSize</key>
+			<integer>0</integer>
+			<key>IK_documentName</key>
+			<string>Scan</string>
+			<key>IK_downloadURL</key>
+			<string>~/Documents</string>
+			<key>IK_scannerDisplayMode</key>
+			<integer>1</integer>
+			<key>IK_selectedFunctionalUnitType</key>
+			<integer>0</integer>
+			<key>IK_sv_preferPostPostProcessApp</key>
+			<false/>
+			<key>NSWindow Frame ImageCaptureMainWindow</key>
+			<string>312 143 1224 891 0 0 1920 1057 </string>
+										
+		</dict>
+	</array>
+</dict>
+</plist>

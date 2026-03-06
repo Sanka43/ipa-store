@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DefaultToBusinessFRE</key>
+			<true/>
+			<key>DisableTutorial</key>
+			<true/>
+			<key>OpenAtLogin</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft OneDrive</string>
+			<key>PayloadIdentifier</key>
+			<string>com.microsoft.OneDrive.C0729865-CC2D-476C-9383-567AF7EFFE5D</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.OneDrive</string>
+			<key>PayloadUUID</key>
+			<string>C0729865-CC2D-476C-9383-567AF7EFFE5D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Microsoft OneDrive Updater</string>
+			<key>PayloadIdentifier</key>
+			<string>com.microsoft.OneDriveUpdater.0050F696-4F77-454C-8683-C19A28376102</string>
+			<key>PayloadType</key>
+			<string>com.microsoft.OneDriveUpdater</string>
+			<key>PayloadUUID</key>
+			<string>0050F696-4F77-454C-8683-C19A28376102</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Tier</key>
+			<string>Production</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>OneDrivePrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.OneDrivePrefs</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>73213735-D047-429D-B9C9-DBBB8DBD39D5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>SharedAppStorePrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.SharedAppStorePrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>0CD105FA-E48F-4AC2-B72E-A67F5BEF2D0E</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.appstore</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.AppStorePrefs.2864F42F-617E-434E-AEF4-599AB612B510</string>
+
+			<key>PayloadUUID</key>
+			<string>59FD7D26-7FE8-405C-BD21-755FAC88A087</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>restrict-store-disable-app-adoption</key>
+			<true/>
+			<key>restrict-store-require-admin-to-install</key>
+			<false/>
+			<key>restrict-store-softwareupdate-only</key>
+			<true/>		
+								
+		</dict>
+		
+	</array>
+</dict>
+</plist>

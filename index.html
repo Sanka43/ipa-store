@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f0f0f">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>IPA Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="header">
+      <h1 class="logo">IPA Store</h1>
+      <div class="search-wrap">
+        <input type="search" id="search" class="search" placeholder="Search apps or profiles…" autocomplete="off" aria-label="Search">
+        <button type="button" id="clear-search" class="clear-search" aria-label="Clear search" hidden>×</button>
+      </div>
+    </header>
+
+    <nav class="tabs" role="tablist">
+      <button type="button" class="tab active" role="tab" aria-selected="true" data-tab="apps">Apps</button>
+      <button type="button" class="tab" role="tab" aria-selected="false" data-tab="profiles">Profiles</button>
+    </nav>
+
+    <main class="main">
+      <section id="panel-apps" class="panel active" role="tabpanel">
+        <div id="apps-loading" class="state-message">Loading apps…</div>
+        <div id="apps-error" class="state-message error" hidden></div>
+        <div id="apps-empty" class="state-message" hidden>No apps match your search.</div>
+        <ul id="apps-list" class="card-list" aria-label="IPA apps"></ul>
+        <div id="apps-more" class="load-more-wrap" hidden>
+          <button type="button" id="load-more-apps" class="load-more">Load more</button>
+        </div>
+      </section>
+
+      <section id="panel-profiles" class="panel" role="tabpanel" hidden>
+        <div id="profiles-loading" class="state-message">Loading profiles…</div>
+        <div id="profiles-error" class="state-message error" hidden></div>
+        <div id="profiles-empty" class="state-message" hidden>No profiles match your search.</div>
+        <ul id="profiles-list" class="card-list" aria-label="Configuration profiles"></ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Install IPAs via TrollStore or similar. Profiles install from Settings.</p>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

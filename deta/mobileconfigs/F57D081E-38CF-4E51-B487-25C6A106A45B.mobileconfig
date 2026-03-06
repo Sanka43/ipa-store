@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+	<string>MotionPrefs</string>
+	
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.MotionPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>F57D081E-38CF-4E51-B487-25C6A106A45B</string>
+
+    <key>PayloadScope</key>
+	<string>System</string>
+
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>MotionPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>03328676-F1C0-47DF-85F8-B225C150EEF4</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>4F39E9FC-DF43-4A9C-B020-EA330B1BBEF3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyDesktopFolder</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.motionapp"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.apple.motionapp</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.motionapp"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.apple.motionapp</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.motionapp"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.apple.motionapp</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+				<key>SystemPolicyNetworkVolumes</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.motionapp"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.apple.motionapp</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>	
+				</array>
+				<key>SystemPolicyRemovableVolumes</key>
+				<array>
+					<dict>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+						<string>(anchor apple generic and certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or anchor apple) and identifier "com.apple.motionapp"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.apple.motionapp</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

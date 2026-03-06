@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EncryptionType</key>
+			<string>WPA</string>
+			<key>HIDDEN_NETWORK</key>
+			<false/>
+			<key>Password</key>
+			<string>01062023</string>
+			<key>PayloadDescription</key>
+			<string>Configura as definições de rede Wireless Fidelity.</string>
+			<key>PayloadDisplayName</key>
+			<string>Wireless Fidelity: AUGUSTO</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.wifi.managed.8B4C4E6D</string>
+			<key>PayloadType</key>
+			<string>com.apple.wifi.managed</string>
+			<key>PayloadUUID</key>
+			<string>3F2E7D1A-8B4C-4E6D-9F1A-2B3C4D5E6F7G</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>SSID_STR</key>
+			<string>AUGUSTO</string>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Instalador de Rede AUGUSTO</string>
+	<key>PayloadIdentifier</key>
+	<string>com.augusto.wifi.config</string>
+	<key>PayloadOrganization</key>
+	<string>Configuração Pessoal</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A1B2C3D4-E5F6-4G7H-8I9J-K0L1M2N3O4P5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

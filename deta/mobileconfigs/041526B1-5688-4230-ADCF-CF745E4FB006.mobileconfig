@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>RedcineXProPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>77536D15-AC48-4674-8700-00B2526C2FA0</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>0F259593-7A6C-456D-9C94-76C56A8837A0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyDesktopFolder</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.red.RedCineX" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4ER5V66EKT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.red.RedCineX</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.red.RedCineX" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4ER5V66EKT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.red.RedCineX</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.red.RedCineX" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4ER5V66EKT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.red.RedCineX</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyNetworkVolumes</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.red.RedCineX" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4ER5V66EKT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.red.RedCineX</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyRemovableVolumes</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.red.RedCineX" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "4ER5V66EKT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.red.RedCineX</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>RedcineXProPrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>ca.example.macadmins.RedcineXProPrefs</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>041526B1-5688-4230-ADCF-CF745E4FB006</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

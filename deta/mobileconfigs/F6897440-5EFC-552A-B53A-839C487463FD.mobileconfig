@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2620:fe::10</string>
+					<string>2620:fe::fe:10</string>
+					<string>9.9.9.10</string>
+					<string>149.112.112.10</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://dns10.quad9.net/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Quad9 Unfiltered Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Quad9 Unfiltered Encrypted DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.4764962f-5e78-514d-ad2c-dc8acd3b27f3</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>4764962F-5E78-514D-AD2C-DC8ACD3B27F3</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use Quad9 Unfiltered over HTTPS
+Operated by Quad9 Foundation.
+Server location: 🇨🇭.
+Filtering: no</string>
+	<key>PayloadDisplayName</key>
+	<string>Quad9 Unfiltered Encrypted DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F6897440-5EFC-552A-B53A-839C487463FD</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

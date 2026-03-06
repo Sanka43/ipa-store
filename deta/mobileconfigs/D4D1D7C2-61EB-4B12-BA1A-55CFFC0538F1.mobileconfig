@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EnableNewOutlook</key>
+			<integer>1</integer>
+			
+			<key>TrustO365AutodiscoverRedirect</key>
+			<true/>
+
+			<key>FirstRunExperienceCompletedO15</key>
+			<true/>
+
+			<key>kFREEnterpriseTelemetryInfoKey</key>
+			<true/>
+
+			<key>kSubUIAppCompletedFirstRunSetup1507</key>
+			<true/>
+
+			<key>ToolbarCustomization_CalendarEventEditorToolView_Preference</key>
+			<array>
+				<string>a7ca6c74-33fb-43a4-a3e4-781078f0eff5-msgReadGroup</string>
+			</array>
+
+			<key>RemindersDisplayType</key>
+			<integer>2</integer>
+
+			<key>PayloadDisplayName</key>
+			<string>Microsoft Outlook</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.microsoft.Outlook.6C1B289C-6109-41D0-A16F-C3312C0FF004</string>
+
+			<key>PayloadType</key>
+			<string>com.microsoft.Outlook</string>
+
+			<key>PayloadUUID</key>
+			<string>6C1B289C-6109-41D0-A16F-C3312C0FF004</string>
+
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>OutlookPrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.OutlookPrefs</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>D4D1D7C2-61EB-4B12-BA1A-55CFFC0538F1</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>IINAPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.IINAPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>F7427EF3-82D8-4934-A929-99D47272E70E</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.colliderli.iina</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.IINAPrefs.1AC4D054-5143-4F22-8174-3D9CCD2C2ACB</string>
+
+			<key>PayloadUUID</key>
+			<string>14CFD9ED-0B39-475C-83B3-0EF44ADE9CD8</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+			
+			<key>SUEnableAutomaticChecks</key>
+			<false/>
+			
+			<key>actionAfterLaunch</key>
+			<integer>2</integer>
+			
+			<key>subAutoLoadIINA</key>
+			<integer>0</integer>
+
+			<key>fullScreenWhenOpen</key>
+			<true/>
+			
+			<key>enableOSD</key>
+			<false/>
+			
+			<key>controlBarAutoHideTimeout</key>
+			<real>0.5</real>
+			
+			<key>controlBarToolbarButtons</key>
+			<array/>
+			
+			<key>oscPosition</key>
+			<integer>2</integer>
+
+			<key>userOptions</key>
+			<array>
+				<array>
+					<string>loop-playlist</string>
+					<string>inf</string>
+				</array>
+			</array>
+						
+		</dict>
+		<dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Preferences Policy Control</string>
+			<key>PayloadIdentifier</key>
+			<string>C1CC0D64-4E4E-4BB5-B6AB-795FEE19A652</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>AADF0A6C-4006-42E6-BA2F-D4C2FD155889</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyDesktopFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.colliderli.iina" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "67CQ77V27R")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.colliderli.iina</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.colliderli.iina" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "67CQ77V27R")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.colliderli.iina</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.colliderli.iina" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "67CQ77V27R")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.colliderli.iina</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

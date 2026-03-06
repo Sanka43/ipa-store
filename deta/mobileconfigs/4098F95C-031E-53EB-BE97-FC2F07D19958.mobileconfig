@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a13:1001::86:54:11:13</string>
+					<string>2a13:1001::86:54:11:213</string>
+					<string>86.54.11.13</string>
+					<string>86.54.11.213</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://noads.joindns4.eu/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use DNS4EU Protective ad-blocking Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS4EU Protective ad-blocking Encrypted DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.468a13d5-803a-56dd-acf2-293ed817ef9a</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>468A13D5-803A-56DD-ACF2-293ED817EF9A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use DNS4EU Protective ad-blocking over HTTPS
+Operated by a consortium lead by Whalebone. Blocks Malware and Ads.
+Server location: 🇨🇿.
+Filtering: yes</string>
+	<key>PayloadDisplayName</key>
+	<string>DNS4EU Protective ad-blocking Encrypted DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4098F95C-031E-53EB-BE97-FC2F07D19958</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>TeamsPrefs</string>
+			<key>PayloadDisplayName</key>
+			<string>TeamsPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>67CDFF3A-ED96-4218-9262-BD8529F95654</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>93B99335-3571-495B-94D3-0AAFF2DB2D6C</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>ScreenCapture</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>identifier "com.microsoft.teams2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = UBF8T346G9</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.microsoft.teams2</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>TeamsPrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.TeamsPrefs</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>1BC89F43-6954-4A14-BE5A-C4F532D8A022</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

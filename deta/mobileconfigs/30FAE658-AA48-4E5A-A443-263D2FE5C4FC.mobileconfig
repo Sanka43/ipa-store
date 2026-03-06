@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>ArduinoPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>F484673E-2EBB-44F9-9296-BC06E0EC358A</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>FDC9AC78-5BE5-4864-8AB6-B0D32A0E6F41</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyDesktopFolder</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "cc.arduino.IDE2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7KT7ZWMCJT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>cc.arduino.IDE2</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "cc.arduino.IDE2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7KT7ZWMCJT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>cc.arduino.IDE2</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "cc.arduino.IDE2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7KT7ZWMCJT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>cc.arduino.IDE2</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyNetworkVolumes</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "cc.arduino.IDE2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7KT7ZWMCJT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>cc.arduino.IDE2</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyRemovableVolumes</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>identifier "cc.arduino.IDE2" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "7KT7ZWMCJT"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>cc.arduino.IDE2</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>ArduinoPrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.ArduinoPrefs</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>30FAE658-AA48-4E5A-A443-263D2FE5C4FC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

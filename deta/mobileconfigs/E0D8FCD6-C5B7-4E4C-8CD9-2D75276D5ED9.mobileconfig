@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+	<string>BlenderPrefs</string>
+	
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.BlenderPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>E0D8FCD6-C5B7-4E4C-8CD9-2D75276D5ED9</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>BlenderPrefs</string>
+			<key>PayloadDisplayName</key>
+			<string>BlenderPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>C5204454-64AA-479A-AD7D-A8B31651A0FA</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>3BC2C1D8-1734-4965-BD78-7D510837F0AC</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyDesktopFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "org.blenderfoundation.blender" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "68UA947AUU"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>org.blenderfoundation.blender</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDocumentsFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "org.blenderfoundation.blender" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "68UA947AUU"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>org.blenderfoundation.blender</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyDownloadsFolder</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "org.blenderfoundation.blender" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "68UA947AUU"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>org.blenderfoundation.blender</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyNetworkVolumes</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "org.blenderfoundation.blender" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "68UA947AUU"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>org.blenderfoundation.blender</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>SystemPolicyRemovableVolumes</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "org.blenderfoundation.blender" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "68UA947AUU"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>org.blenderfoundation.blender</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

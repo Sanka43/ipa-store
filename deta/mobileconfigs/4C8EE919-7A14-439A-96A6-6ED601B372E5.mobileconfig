@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>FileVault Options #1</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadType</key>
+			<string>com.apple.MCX</string>
+			<key>PayloadUUID</key>
+			<string>6371DD80-FDAF-46CB-9762-B6A6D813000E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>com.apple.EnergySaver.desktop.ACPower</key>
+			<dict>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>0</integer>
+			</dict>
+			<key>com.apple.EnergySaver.desktop.Schedule</key>
+			<dict>
+				<key>RepeatingPowerOff</key>
+				<dict>
+					<key>eventtype</key>
+					<string>restart</string>
+					<key>time</key>
+					<integer>240</integer>
+					<key>weekdays</key>
+					<integer>1</integer>
+				</dict>
+				<key>RepeatingPowerOn</key>
+				<dict>
+					<key>eventtype</key>
+					<string>wake</string>
+					<key>time</key>
+					<integer>127</integer>
+					<key>weekdays</key>
+					<integer>480</integer>
+				</dict>
+			</dict>
+			<key>com.apple.EnergySaver.portable.ACPower</key>
+			<dict>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>0</integer>
+			</dict>
+			<key>com.apple.EnergySaver.portable.BatteryPower</key>
+			<dict>
+				<key>Automatic Restart On Power Loss</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>AssignedEnergySettings</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.AssignedEnergySettings</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4C8EE919-7A14-439A-96A6-6ED601B372E5</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>TerminalPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.TerminalPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>505F765C-87DA-465F-A0DD-F034720EDEDF</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.Terminal</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.TerminalPrefs.71C2C3D1-0EFB-4F81-A108-BE8FEB260DC3</string>
+
+			<key>PayloadUUID</key>
+			<string>DC6E3134-2FEC-4BBB-91C7-ECFF3C496417</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>Default Window Settings</key>
+			<string>Basic</string>
+
+			<key>Startup Window Settings</key>
+			<string>Basic</string>
+
+			<key>Window Settings</key>
+			<dict>
+				<key>Basic</key>
+				<dict>
+					<key>Font</key>
+					<data>
+					YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFy
+					Y2hpdmVyVCR0b3ASAAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5T
+					U2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNsYXNzI0AsAAAAAAAAEBCA
+					AoADXlNGTW9uby1SZWd1bGFy0hMUFRZaJGNsYXNzbmFtZVgkY2xh
+					c3Nlc1ZOU0ZvbnSiFRdYTlNPYmplY3RfEA9OU0tleWVkQXJjaGl2
+					ZXLRGhtUcm9vdIABCBEaIy0yNzxCS1JbYmlydHZ4h4yXoKeqs8XI
+					zQAAAAAAAAEBAAAAAAAAABwAAAAAAAAAAAAAAAAAAADP
+					</data>
+					<key>FontAntialias</key>
+					<true/>
+					<key>columnCount</key>
+					<integer>222</integer>
+					<key>name</key>
+					<string>Basic</string>
+					<key>type</key>
+					<string>Window Settings</string>
+				</dict>
+			</dict>
+
+		</dict>
+		
+	</array>			
+</dict>
+</plist>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2606:4700:4700::1112</string>
+					<string>2606:4700:4700::1002</string>
+					<string>1.1.1.2</string>
+					<string>1.0.0.2</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://security.cloudflare-dns.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Cloudflare 1.1.1.1 Security Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Cloudflare 1.1.1.1 Security Encrypted DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.e82f3188-9d25-5418-b532-005fc733395d</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>E82F3188-9D25-5418-B532-005FC733395D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use Cloudflare 1.1.1.1 Security over HTTPS
+Operated by Cloudflare Inc. Blocks malware &amp; phishing.
+Server location: 🇺🇸.
+Filtering: yes</string>
+	<key>PayloadDisplayName</key>
+	<string>Cloudflare 1.1.1.1 Security Encrypted DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>DDC43B4D-DCD5-577D-B7B6-3A9516226934</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

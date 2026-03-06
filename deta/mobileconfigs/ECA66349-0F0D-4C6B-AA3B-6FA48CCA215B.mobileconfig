@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+
+			<key>PayloadDisplayName</key>
+			<string>WacomPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.TCC.configuration-profile-policy.0E54CD1A-B947-4DBD-9C9A-80EC0AF469CE</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>0E54CD1A-B947-4DBD-9C9A-80EC0AF469CE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.wacom.IOManager" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.wacom.IOManager</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.wacom.IOManager" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7)</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for com.wacom.IOManager</string>
+						<key>Identifier</key>
+						<string>com.wacom.IOManager</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.wacom.WacomTouchDriver" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7)</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for WacomTouchDriver</string>
+						<key>Identifier</key>
+						<string>com.wacom.WacomTouchDriver</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.wacom.wacomtablet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7</string>
+						<key>Comment</key>
+						<string>Allow Accessibility control for WacomTabletDriver</string>
+						<key>Identifier</key>
+						<string>com.wacom.wacomtablet</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+						<key>StaticCode</key>
+						<false/>
+					</dict>
+				</array>
+				<key>AppleEvents</key>
+				<array>
+					<dict>
+						<key>AEReceiverCodeRequirement</key>
+						<string>anchor apple generic and identifier "com.wacom.TabletDriver" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7)</string>
+						<key>AEReceiverIdentifier</key>
+						<string>com.wacom.TabletDriver</string>
+						<key>AEReceiverIdentifierType</key>
+						<string>bundleID</string>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = JQ525L2MZD)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.adobe.illustrator</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+					<dict>
+				    	<key>AEReceiverCodeRequirement</key>
+				    	<string>identifier "com.apple.systempreferences" and anchor apple</string>
+				    	<key>AEReceiverIdentifier</key>
+				    	<string>com.apple.systempreferences</string>
+				    	<key>AEReceiverIdentifierType</key>
+				    	<string>bundleID</string>
+				    	<key>Allowed</key>
+				    	<true/>
+				    	<key>CodeRequirement</key>
+				    	<string>identifier "com.wacom.wacomtablet" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7</string>
+				    	<key>Comment</key>
+				    	<string>Allow WacomTabletDriver to send AppleEvents control to System Preferences</string>
+				    	<key>Identifier</key>
+				    	<string>com.wacom.wacomtablet</string>
+				    	<key>IdentifierType</key>
+				    	<string>bundleID</string>
+				    </dict>
+				</array>
+				<key>ListenEvent</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.wacom.FirmwareUpdater" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EG27766DY7)</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.wacom.FirmwareUpdater</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>WacomPrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>84C50AD4-4054-4FC8-A7BB-99D6E96F2A72</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>ECA66349-0F0D-4C6B-AA3B-6FA48CCA215B</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

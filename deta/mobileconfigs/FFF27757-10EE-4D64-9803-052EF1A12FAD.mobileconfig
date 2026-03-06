@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>SharedAutoLogin</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.loginwindow.C9DD0D9B-8975-4ACD-BA8C-0DFC3A2F8EDF</string>
+			<key>PayloadType</key>
+			<string>com.apple.loginwindow</string>
+			<key>PayloadUUID</key>
+			<string>8434859A-B646-4DE2-A9EC-058CC93DE76D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>AdminHostInfo</key>
+			<string>IPAddress</string>
+			<key>AutologinUsername</key>
+			<string>student</string>
+			<key>DisableScreenLockImmediate</key>
+			<true/>
+			<key>LoginwindowText</key>
+			<string>If you are asked for a password, simply press enter on the keyboard.</string>
+			<key>ShutDownDisabledWhileLoggedIn</key>
+			<true/>
+			<key>TALLogoutSavesState</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Sets Auto Login to Student on Curriulum machines without XCreds</string>
+	<key>PayloadDisplayName</key>
+	<string>SharedAutoLogin</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.SharedAutoLogin</string>
+	<key>PayloadOrganization</key>
+	<string></string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>FFF27757-10EE-4D64-9803-052EF1A12FAD</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>TextEditPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.TextEditPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>D8CBFA3D-E35B-4468-A4C4-E22D90F77060</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.TextEdit</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.com.apple.TextEdit.C0C1EF03-9CCC-47A2-BF24-E685E42BF831</string>
+
+			<key>PayloadUUID</key>
+			<string>88E066EE-7B8D-468D-AEB2-B1651B81B7EC</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>RichText</key>
+			<integer>0</integer>					
+		</dict>
+	</array>
+</dict>
+</plist>

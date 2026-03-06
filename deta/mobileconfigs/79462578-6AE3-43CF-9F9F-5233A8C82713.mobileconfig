@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>HomePrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.HomePrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>79462578-6AE3-43CF-9F9F-5233A8C82713</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.Home</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.HomePrefs.67DA22AE-CEB8-49B8-9418-7A857D9530E3</string>
+
+			<key>PayloadUUID</key>
+			<string>C3508396-033B-411B-B07D-178F89777354</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>showHomeEnergy</key>
+			<false/>
+		
+		</dict>
+	</array>
+</dict>
+</plist>

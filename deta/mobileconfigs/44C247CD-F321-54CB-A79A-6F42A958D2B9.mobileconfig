@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2620:10a:80bb::30</string>
+					<string>2620:10a:80bc::30</string>
+					<string>149.112.121.30</string>
+					<string>149.112.122.30</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://family.canadianshield.cira.ca/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Canadian Shield Family Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Canadian Shield Family Encrypted DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.66866361-cb2d-5332-988f-b83b18a3e4b6</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>66866361-CB2D-5332-988F-B83B18A3E4B6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use Canadian Shield Family over HTTPS
+Operated by the Canadian Internet Registration Authority (CIRA). Blocks malware, phishing &amp; adult content.
+Server location: 🇨🇦.
+Filtering: yes</string>
+	<key>PayloadDisplayName</key>
+	<string>Canadian Shield Family Encrypted DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>44C247CD-F321-54CB-A79A-6F42A958D2B9</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

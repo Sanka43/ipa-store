@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>PCoIPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.PCoIPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>CCAA84AF-F4BC-43D4-8124-34A81AA1A320</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.teradici.Teradici PCoIP Client</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.TeradiciPCoIPClient.9AB8F94B-EED2-4BB6-98D2-383ECE3A0CA4</string>
+
+			<key>PayloadUUID</key>
+			<string>2179F6A2-E2B2-42C8-97EB-58694B17BD84</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>security_mode</key>
+			<string>0</string>
+											
+		</dict>
+	
+	</array>
+</dict>
+</plist>

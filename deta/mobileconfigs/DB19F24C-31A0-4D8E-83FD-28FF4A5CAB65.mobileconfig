@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>CalendarPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.CalendarPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>DB19F24C-31A0-4D8E-83FD-28FF4A5CAB65</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.iCal</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.CalendarPrefs.45664417-F8D9-4919-92B1-370C3D80E76E</string>
+
+			<key>PayloadUUID</key>
+			<string>463F3464-04D3-40BA-B27A-73AB3CA70537</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+			
+			<key>privacyPaneHasBeenAcknowledged</key>
+			<integer>4</integer>
+			<key>TimeZone support enabled</key>
+			<true/>
+			
+		</dict>
+	
+	</array>
+</dict>
+</plist>

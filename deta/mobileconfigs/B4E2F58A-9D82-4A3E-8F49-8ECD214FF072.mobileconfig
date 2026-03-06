@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>AssignedSafari</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.AssignedSafari</string>
+
+	<key>PayloadUUID</key>
+	<string>B4E2F58A-9D82-4A3E-8F49-8ECD214FF072</string>
+
+	<key>PayloadScope</key>
+	<string>System</string>
+
+	<key>PayloadDescription</key>
+	<string>Safari cross-site tracking configuration for staff</string>
+
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+		     <key>PayloadDescription</key>
+		     <string>Cross-Site Tracking Prevention Relaxed Domains</string>
+		     
+		     <key>PayloadDisplayName</key>
+		     <string>Cross-Site Tracking Prevention Relaxed Domains</string>
+		     
+		     <key>PayloadIdentifier</key>
+		     <string>com.apple.domains.BCCDBF25-7676-4DA9-A97A-610D2A7FCF30</string>
+		     
+		     <key>PayloadType</key>
+		     <string>com.apple.domains</string>
+		     
+		     <key>PayloadUUID</key>
+		     <string>BCCDBF25-7676-4DA9-A97A-610D2A7FCF30</string>
+		     
+		     <key>PayloadVersion</key>
+		     <integer>1</integer>
+		     
+		     <key>CrossSiteTrackingPreventionRelaxedDomains</key>
+		      
+		      <array>
+		        <string>example.com</string>
+		      </array>
+		   </dict>
+		   
+		<dict>
+		     <key>PayloadType</key>
+		     <string>com.apple.Safari</string>
+		     
+		     <key>PayloadIdentifier</key>
+		     <string>com.example.profiles.AssignedSafari.Safari</string>
+		     
+		     <key>PayloadUUID</key>
+		     <string>C3F4E59B-8E93-4B4F-9G50-9FDE325GG073</string>
+		     
+		     <key>PayloadVersion</key>
+		     <integer>1</integer>
+		     
+		     <key>PayloadEnabled</key>
+		     <true/>
+		     
+		     <key>BlockStoragePolicy</key>
+		     <integer>1</integer>
+		   </dict>
+	</array>
+</dict>
+</plist>

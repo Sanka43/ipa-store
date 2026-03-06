@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a13:1001::86:54:11:11</string>
+					<string>2a13:1001::86:54:11:211</string>
+					<string>86.54.11.11</string>
+					<string>86.54.11.211</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://child-noads.joindns4.eu/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use DNS4EU Protective with child protection &amp; ad-blocking Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS4EU Protective with child protection &amp; ad-blocking Encrypted DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.f4a5e1c6-d82e-5000-a7bb-678a20116896</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>F4A5E1C6-D82E-5000-A7BB-678A20116896</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use DNS4EU Protective with child protection &amp; ad-blocking over HTTPS
+Operated by a consortium lead by Whalebone. Blocks Malware, Ads and explicit content.
+Server location: 🇨🇿.
+Filtering: yes</string>
+	<key>PayloadDisplayName</key>
+	<string>DNS4EU Protective with child protection &amp; ad-blocking Encrypted DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4E1547FA-5A31-5D43-A84F-DFF919BBB386</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

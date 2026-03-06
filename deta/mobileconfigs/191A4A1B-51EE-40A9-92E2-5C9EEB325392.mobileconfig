@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>HuionPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>F484673E-2EBB-44F9-9296-BC06E0EC358A</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>9344EE6C-4313-4538-9C52-F1CEB6807F05</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>BluetoothAlways</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.huion.HuionTablet" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "5L9RVY3BW9")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.huion.HuionTablet</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+				<key>Accessibility</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>Allow</string>
+						<key>CodeRequirement</key>
+						<string>anchor apple generic and identifier "com.huion.HuionTablet" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "5L9RVY3BW9")</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.huion.HuionTablet</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>				
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>HuionPrefs</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.HuionPrefs</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>191A4A1B-51EE-40A9-92E2-5C9EEB325392</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

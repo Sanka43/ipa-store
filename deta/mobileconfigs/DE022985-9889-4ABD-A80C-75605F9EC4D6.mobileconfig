@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>FetchPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.FetchPrefs</string>
+
+	<key>PayloadUUID</key>
+	<string>DE022985-9889-4ABD-A80C-75605F9EC4D6</string>
+
+	<key>PayloadScope</key>
+	<string>System</string>
+
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+		
+			<key>PayloadType</key>
+			<string>com.fetchsoftworks.Fetch</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.FetchPrefs.9A01CDE0-30E4-42DD-A7D8-DB77E0168015</string>
+			
+			<key>PayloadDisplayName</key>
+			<string>FetchPrefs</string>
+
+			<key>PayloadUUID</key>
+			<string>20849570-3448-4CC2-A37C-2ED20B651E81</string>
+
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>AutoCheckForUpdates</key>
+			<false/>
+			<key>DefaultShortcut</key>
+			<string>Your private network account</string>
+			<key>DontUploadDotFiles</key>
+			<true/>
+			<key>OmitDotFiles</key>
+			<true/>					
+			<key>NewConnectionExpanded</key>
+			<true/>
+			<key>RegistrantName</key>
+			<string>ExampleOrganization of Art + Design</string>
+			<key>ResumeDownloadRecords</key>
+			<dict/>
+			<key>SerialNumber</key>
+			<string>FETCHEX001-YA3U-DWUE-CNSG-UUMD-2V4E</string>
+			<key>com.pkware.zip-archive</key>
+			<dict>
+				<key>AutoDecode</key>
+				<false/>
+				<key>Extrinsic</key>
+				<true/>
+				<key>TransferMode</key>
+				<string>Binary</string>
+			</dict>
+
+		</dict>
+		<dict>			
+			<key>PayloadType</key>
+			<string>com.fetchsoftworks.Fetch.Shortcuts</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.FetchShortcuts</string>
+			<key>PayloadUUID</key>
+			<string>EE4C9689-3521-4FCC-900A-48B5877C732F</string>
+			<key>PayloadDisplayName</key>
+			<string>FetchShortcuts</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>			
+			
+			<key>Shortcuts v2</key>
+			<dict>
+				<key>Preferences</key>
+				<dict>
+					<key>Default</key>
+					<false/>
+					<key>Font</key>
+					<string>Lucida Grande</string>
+					<key>Font Size</key>
+					<real>10</real>
+					<key>Layout</key>
+					<dict>
+						<key>Columns</key>
+						<array>
+							<array>
+								<string>ULC0</string>
+								<dict>
+									<key>Index</key>
+									<integer>0</integer>
+									<key>Width</key>
+									<integer>160</integer>
+								</dict>
+							</array>
+							<array>
+								<string>ULC3</string>
+								<dict>
+									<key>Index</key>
+									<integer>1</integer>
+									<key>Width</key>
+									<integer>180</integer>
+								</dict>
+							</array>
+							<array>
+								<string>ULC4</string>
+								<dict>
+									<key>Index</key>
+									<integer>2</integer>
+									<key>Width</key>
+									<integer>70</integer>
+								</dict>
+							</array>
+							<array>
+								<string>ULC5</string>
+								<dict>
+									<key>Index</key>
+									<integer>3</integer>
+									<key>Width</key>
+									<integer>178</integer>
+								</dict>
+							</array>
+							<array>
+								<string>ULC6</string>
+								<dict>
+									<key>Index</key>
+									<integer>4</integer>
+									<key>Width</key>
+									<integer>108</integer>
+								</dict>
+							</array>
+						</array>
+						<key>Sort column</key>
+						<string>ULC0</string>
+						<key>Sort order</key>
+						<integer>1</integer>
+					</dict>
+					<key>Window Bounds</key>
+					<dict>
+						<key>Height</key>
+						<real>234</real>
+						<key>Width</key>
+						<real>616</real>
+						<key>X</key>
+						<real>219</real>
+						<key>Y</key>
+						<real>158</real>
+					</dict>
+				</dict>
+				<key>Shortcuts</key>
+				<dict>
+					<key>Name</key>
+					<string></string>
+					<key>Shortcuts</key>
+					<array>
+						<dict>
+							<key>ID</key>
+							<string>0AC5331A-4E7F-4119-A3B4-E051DA4B7175</string>
+							<key>Name</key>
+							<string>Instructor Dropboxes</string>
+							<key>Remote Item</key>
+							<dict>
+								<key>Info</key>
+								<dict>
+									<key>Alias</key>
+									<false/>
+									<key>File</key>
+									<false/>
+									<key>Folder</key>
+									<true/>
+								</dict>
+								<key>Location</key>
+								<dict>
+									<key>URL</key>
+									<string>ftp://ftp.example.com/%2Fhome/students/Dropboxes/</string>
+								</dict>
+								<key>Options</key>
+								<dict>
+									<key>Retries</key>
+									<integer>0</integer>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>ID</key>
+							<string>1FAABF93-1244-4896-9598-081C65B92AFE</string>
+							<key>Name</key>
+							<string>Instructor Public Folder</string>
+							<key>Remote Item</key>
+							<dict>
+								<key>Info</key>
+								<dict>
+									<key>Alias</key>
+									<false/>
+									<key>File</key>
+									<false/>
+									<key>Folder</key>
+									<true/>
+								</dict>
+								<key>Location</key>
+								<dict>
+									<key>URL</key>
+									<string>ftp://ftp.example.com/%2Fhome/students/Public/Instructor/</string>
+								</dict>
+								<key>Options</key>
+								<dict>
+									<key>Retries</key>
+									<integer>0</integer>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>ID</key>
+							<string>DBC2F8D6-E3B4-43A4-A0B9-54AA1686E308</string>
+							<key>Name</key>
+							<string>Your private network account</string>
+							<key>Remote Item</key>
+							<dict>
+								<key>Info</key>
+								<dict>
+									<key>Alias</key>
+									<false/>
+									<key>File</key>
+									<false/>
+									<key>Folder</key>
+									<true/>
+								</dict>
+								<key>Location</key>
+								<dict>
+									<key>URL</key>
+									<string>ftp://ftp.example.com/</string>
+								</dict>
+								<key>Options</key>
+								<dict>
+									<key>Retries</key>
+									<integer>0</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>		
+			<key>com.apple.PreferenceSync.ExcludeSyncKeys</key>
+			<array>
+			<string>Shortcuts v2</string>
+			</array>
+			
+		</dict>
+	</array>
+</dict>
+</plist>

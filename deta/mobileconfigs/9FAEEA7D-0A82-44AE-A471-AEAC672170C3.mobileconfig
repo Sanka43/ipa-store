@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>SharedAutoLogout</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.SharedAutoLogout</string>
+	
+	<key>PayloadUUID</key>
+	<string>9FAEEA7D-0A82-44AE-A471-AEAC672170C3</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string>Auto logs out sessional faculty users after 60 minutes of inactivity.</string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>.GlobalPreferences</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.SharedAutoLogout.2C33E854-9BA8-4DC2-80B1-AFFCAAD3E61D</string>
+
+			<key>PayloadUUID</key>
+			<string>900BD3E8-9690-4AC1-A7FC-1DEF38585B75</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>com.apple.autologout.AutoLogOutDelay</key>
+			<integer>3600</integer>
+			<key>com.apple.securitypref.logoutvalue</key>
+			<integer>3600</integer>
+								
+		</dict>
+	
+	</array>
+</dict>
+</plist>

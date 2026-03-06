@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>ChromePrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.ChromePrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>8E10FF4F-0F62-46B1-8AE1-A16B42C4372A</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.google.Chrome</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.ChromePrefs.BDDDC6BF-8DD9-4631-A490-A74A4E5F97F2</string>
+
+			<key>PayloadUUID</key>
+			<string>9FC2BCF9-83C0-4050-B34D-F93EAF252656</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>DisablePrintPreview</key>
+			<true/>
+			
+			<key>PMPrintingExpandedStateForPrint2</key>
+			<true/>			
+		</dict>
+		
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Preferences Policy Control</string>
+			<key>PayloadIdentifier</key>
+			<string>4188E996-37CB-43CF-986F-78DBBE731959</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>854B1BAC-383D-43C8-BA9C-CDBFD5209B45</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<key>ScreenCapture</key>
+				<array>
+					<dict>
+						<key>Authorization</key>
+						<string>AllowStandardUserToSetSystemService</string>
+						<key>CodeRequirement</key>
+						<string>(identifier "com.google.Chrome" or identifier "com.google.Chrome.beta" or identifier "com.google.Chrome.dev" or identifier "com.google.Chrome.canary") and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = EQHXZ8M8AV</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.google.Chrome</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+
+	</array>
+</dict>
+</plist>

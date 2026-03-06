@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadDisplayName</key>
+	<string>OmniDiskPrefs</string>
+    <key>PayloadIdentifier</key>
+    <string>com.example.profiles.OmniDiskPrefs</string>
+    <key>PayloadOrganization</key>
+    <string>ExampleOrganization</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>A7BC9FD2-7B93-456A-8E5B-332D7D188026</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+			<key>PayloadDisplayName</key>
+			<string>OmniDiskPrefs</string>
+			<key>PayloadIdentifier</key>
+			<string>8D23409A-EA24-41C5-9017-37D4E61D3C66</string>
+			<key>PayloadOrganization</key>
+			<string>ExampleOrganization</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>9D8AE42A-FB49-4209-B73A-905A03EF531F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>Services</key>
+			<dict>
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<string>identifier "com.omnigroup.OmniDiskSweeper" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "34YW5XSRB7"</string>
+						<key>Comment</key>
+						<string></string>
+						<key>Identifier</key>
+						<string>com.omnigroup.OmniDiskSweeper</string>
+						<key>IdentifierType</key>
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+    </array>
+</dict>
+</plist>

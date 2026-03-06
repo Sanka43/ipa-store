@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a10:50c0::1:ff</string>
+					<string>2a10:50c0::2:ff</string>
+					<string>94.140.14.140</string>
+					<string>94.140.14.141</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://dns-unfiltered.adguard.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use AdGuard DNS Non-filtering Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>AdGuard DNS Non-filtering Encrypted DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.b32f80e6-b0d2-52b0-9b6b-8daa173ed9ce</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>B32F80E6-B0D2-52B0-9B6B-8DAA173ED9CE</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use AdGuard DNS Non-filtering over HTTPS
+Operated by AdGuard Software Ltd. Non-filtering.
+Server location: 🇷🇺.
+Filtering: no</string>
+	<key>PayloadDisplayName</key>
+	<string>AdGuard DNS Non-filtering Encrypted DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6E1CFE09-08BC-5EB6-9E22-9F651AD2FAF1</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

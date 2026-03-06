@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>SilverfastPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.SilverfastPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>39A12E83-D2CA-4589-AA2C-990270109A76</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.lasersoft-imaging.SilverFast9</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.SilverfastPrefs.6AD7840B-99E9-463B-92D0-13FF282BE3F0</string>
+
+			<key>PayloadUUID</key>
+			<string>3C003DF3-53FC-49B6-8679-0092697842F2</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>autoupdateInterval</key>
+			<integer>3</integer>
+			<key>introVideoShown</key>
+			<true/>
+			<key>lastAutoUpdateTry</key>
+			<integer>1861920000</integer>
+			<key>updateAgreement</key>
+			<true/>
+		</dict>
+	
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://doh.familyshield.opendns.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use OpenDNS FamilyShield Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>OpenDNS FamilyShield Encrypted DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.1a8cc509-020c-5f6a-830d-7a85f82d66e5</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>1A8CC509-020C-5F6A-830D-7A85F82D66E5</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use OpenDNS FamilyShield over HTTPS
+Operated by Cisco OpenDNS LLC. Blocks malware &amp; adult content.
+Server location: 🇺🇸.
+Filtering: yes</string>
+	<key>PayloadDisplayName</key>
+	<string>OpenDNS FamilyShield Encrypted DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>735FD354-AC3B-574F-9350-4BCEB76872DB</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

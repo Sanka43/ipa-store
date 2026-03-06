@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>ExtensionData</key>
+			<dict>
+				<!-- Comma-separated list of app bundle IDs allowed to use SSO -->
+				<key>AppAllowList</key>
+				<string>com.microsoft.Outlook,com.microsoft.teams,com.microsoft.OneDrive,com.microsoft.edgemac,us.zoom.xos</string>
+				<!-- Prefix matching for app bundle IDs allowed to use SSO -->
+				<key>AppPrefixAllowList</key>
+				<string>com.example.profiles.,com.microsoft.,com.adobe.,com.apple.,us.zoom.</string>
+				<key>Enable_SSO_On_All_ManagedApps</key>
+				<integer>1</integer>
+				<key>browser_sso_interaction_enabled</key>
+				<integer>1</integer>
+				<key>disable_explicit_app_prompt</key>
+				<integer>1</integer>
+			</dict>
+			<key>ExtensionIdentifier</key>
+			<string>com.microsoft.CompanyPortalMac.ssoextension</string>
+			<key>PayloadDisplayName</key>
+			<string>Single Sign-On Extension for Entra ID</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.extensiblesso.E5F6A7B8-C9D0-1234-EF01-23456789ABCD</string>
+			<key>PayloadType</key>
+			<string>com.apple.extensiblesso</string>
+			<key>PayloadUUID</key>
+			<string>E5F6A7B8-C9D0-1234-EF01-23456789ABCD</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PlatformSSO</key>
+			<dict>
+				<!-- Display name shown to users in System Settings -->
+				<key>AccountDisplayName</key>
+				<string>Your Organization Account</string>
+				<!-- UserSecureEnclaveKey provides passwordless auth via Secure Enclave -->
+				<!-- Use "Password" instead for shared/multi-user devices -->
+				<key>AuthenticationMethod</key>
+				<string>UserSecureEnclaveKey</string>
+				<key>EnableAuthorization</key>
+				<true/>
+				<key>EnableCreateUserAtLogin</key>
+				<true/>
+				<!-- Admin = user gets admin rights; Standard = standard user -->
+				<key>NewUserAuthorizationMode</key>
+				<string>Admin</string>
+				<!-- Local accounts excluded from Platform SSO management -->
+				<key>NonPlatformSSOAccounts</key>
+				<array>
+					<string>admin</string>
+				</array>
+				<key>TokenToUserMapping</key>
+				<dict>
+					<key>AccountName</key>
+					<string>preferred_username</string>
+					<key>FullName</key>
+					<string>name</string>
+				</dict>
+				<key>UseSharedDeviceKeys</key>
+				<true/>
+				<key>UserAuthorizationMode</key>
+				<string>Admin</string>
+			</dict>
+			<key>RegistrationToken</key>
+			<string>{{DEVICEREGISTRATION}}</string>
+			<key>ScreenLockedBehavior</key>
+			<string>DoNotHandle</string>
+			<key>TeamIdentifier</key>
+			<string>UBF8T346G9</string>
+			<key>Type</key>
+			<string>Redirect</string>
+			<key>URLs</key>
+			<array>
+				<string>https://login.microsoftonline.com</string>
+				<string>https://login.microsoft.com</string>
+				<string>https://sts.windows.net</string>
+				<string>https://login.microsoftonline.us</string>
+				<string>https://login-us.microsoftonline.com</string>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>PlatformSingleSignOn</string>
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.AssignedPlatformSingleSignOn</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>F6A7B8C9-D0E1-2345-F012-3456789ABCDE</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

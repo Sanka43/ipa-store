@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>TLS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2620:10a:80bb::10</string>
+					<string>2620:10a:80bc::10</string>
+					<string>149.112.121.10</string>
+					<string>149.112.122.10</string>
+				</array>
+				<key>ServerName</key>
+				<string>private.canadianshield.cira.ca</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Canadian Shield Private Encrypted DNS over TLS</string>
+			<key>PayloadDisplayName</key>
+			<string>Canadian Shield Private Encrypted DNS over TLS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.0af0ebba-7a17-52f0-bc99-915fad31fee6</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>0AF0EBBA-7A17-52F0-BC99-915FAD31FEE6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use Canadian Shield Private over TLS
+Operated by the Canadian Internet Registration Authority (CIRA).
+Server location: 🇨🇦.
+Filtering: no</string>
+	<key>PayloadDisplayName</key>
+	<string>Canadian Shield Private Encrypted DNS over TLS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>52579A5B-496D-53F1-BAEC-410BEFB43B4F</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

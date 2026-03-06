@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>iBooksPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.iBooksPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>56604D17-4FED-4FB0-A9E5-7B526266C403</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.iBooksX</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.iBooksPrefs.177C2D47-7F35-4BE1-B302-9E449759EEDF</string>
+
+			<key>PayloadUUID</key>
+			<string>23F71F28-DB40-4D84-9698-3BA3535AA266</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>BKAlreadyDisplayedUbiquity</key>
+			<true/>
+			<key>BKAlreadyDisplayedWelcomeExperience</key>
+			<true/>
+			<key>BKDidPerformSilentMachineAuthorization</key>
+			<true/>								
+		</dict>
+	</array>
+</dict>
+</plist>

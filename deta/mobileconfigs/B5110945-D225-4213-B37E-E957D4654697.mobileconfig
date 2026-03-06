@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>SharedAppsBlockList</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.SharedAppsBlockList</string>
+	
+	<key>PayloadUUID</key>
+	<string>B5110945-D225-4213-B37E-E957D4654697</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.applicationaccess.new</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.SharedAppsBlockList.8EC28D53-A6BF-4F38-B0C7-6BEC0BA26406</string>
+
+			<key>PayloadUUID</key>
+			<string>C6501EF4-1DCD-4C03-9872-A15854EF724E</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>familyControlsEnabled</key>
+			<true/>
+			
+			<key>pathBlackList</key>
+			<array>
+				<string>/System/Applications/Chess.app/</string>
+				<string>/System/Applications/FaceTime.app/</string>
+				<string>/System/Applications/Find My.app/</string>
+				<string>/System/Applications/Mail.app/</string>
+				<string>/System/Applications/Messages.app/</string>
+				<string>/System/Applications/Stickies.app</string>
+			</array>
+			<key>pathWhiteList</key>
+			<array>
+				<string>/</string>
+			</array>
+			<key>whiteList</key>
+			<array>
+			</array>
+										
+		</dict>
+	
+	</array>
+</dict>
+</plist>

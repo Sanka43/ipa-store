@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>PayloadDisplayName</key>
+	<string>PreviewPrefs</string>
+
+	<key>PayloadIdentifier</key>
+	<string>com.example.profiles.PreviewPrefs</string>
+	
+	<key>PayloadUUID</key>
+	<string>DB0F66EA-DB94-4DE2-9BBB-9BFC23F68330</string>
+	
+	<key>PayloadScope</key>
+	<string>System</string>
+	
+	<key>PayloadDescription</key>
+	<string></string>
+	
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	
+	<key>PayloadRemovalDisallowed</key>
+	<true/>	
+	
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	
+	<key>PayloadType</key>
+	<string>Configuration</string>
+
+	<key>PayloadContent</key>
+	<array>
+
+		<dict>		
+			<key>PayloadType</key>
+			<string>com.apple.Preview</string>
+
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.PreviewPrefs.2C0E5080-F782-46A2-A786-182F5D70F6FB</string>
+
+			<key>PayloadUUID</key>
+			<string>CC45FD49-BE85-422C-BB17-F4C8088ACD36</string>
+	
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		
+			<key>PayloadEnabled</key>
+			<true/>
+
+			<key>NSToolbar Configuration CommonToolbar_v5.1</key>
+			<dict>
+				<key>TB Display Mode</key>
+				<integer>1</integer>
+				<key>TB Icon Size Mode</key>
+				<integer>1</integer>
+				<key>TB Is Shown</key>
+				<integer>1</integer>
+				<key>TB Item Identifiers</key>
+				<array>
+					<string>view</string>
+					<string>zoom</string>
+					<string>share</string>
+					<string>NSToolbarFlexibleSpaceItem</string>
+					<string>print</string>
+					<string>NSToolbarFlexibleSpaceItem</string>
+					<string>markup</string>
+					<string>rotate</string>
+					<string>edit_banner</string>
+					<string>search</string>
+				</array>
+				<key>TB Size Mode</key>
+				<integer>1</integer>
+			</dict>			
+		</dict>
+	</array>
+</dict>
+</plist>

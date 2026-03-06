@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>2a0d:2a00:1::</string>
+					<string>2a0d:2a00:1::</string>
+					<string>185.228.169.168</string>
+					<string>185.228.168.168</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://doh.cleanbrowsing.org/doh/family-filter/</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Cleanbrowsing Family Filter Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Cleanbrowsing Family Filter Encrypted DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.412fd71d-9aea-513e-a745-17475f60376b</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>412FD71D-9AEA-513E-A745-17475F60376B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Configures device to use Cleanbrowsing Family Filter over HTTPS
+Filters malware &amp; adult, mixed content.
+Server location: 🇺🇸.
+Filtering: yes</string>
+	<key>PayloadDisplayName</key>
+	<string>Cleanbrowsing Family Filter Encrypted DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>com.paulmillr.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>558FC95E-D736-54E6-9428-C433C36AF10E</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

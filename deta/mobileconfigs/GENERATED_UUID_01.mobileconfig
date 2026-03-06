@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!--
+	MainProfileTemplate.mobileconfig
+
+	A teaching template for building macOS configuration profiles.
+	Each key is annotated to explain its purpose.
+
+	Quick start:
+	  1. Copy this file and rename it (e.g. MyAppPrefs.mobileconfig).
+	  2. Replace all UPPERCASE placeholders with real values.
+	  3. Generate fresh UUIDs:  uuidgen  (run in Terminal for each one).
+	  4. Set PayloadType in each inner dict to the preference domain you
+	     want to manage (e.g. com.apple.Safari, com.google.Chrome).
+	  5. Validate:  plutil -lint MyAppPrefs.mobileconfig
+	  6. Install for testing:  sudo profiles install -path MyAppPrefs.mobileconfig
+	  7. Remove:  sudo profiles remove -identifier com.example.profiles.MyAppPrefs
+
+	PayloadType reference:
+	  - Direct domain: target the app's preference domain directly
+	    (e.g. com.apple.Safari, com.microsoft.Word)
+	  - com.apple.ManagedClient.preferences: MCX-style wrapping for domains
+	    that require Forced/Set-Once management (less common on modern macOS)
+	  - com.apple.TCC.configuration-profile-policy: Privacy/PPPC permissions
+	  - com.apple.extensiblesso: Single Sign-On extensions
+	  - com.apple.system-extension-policy: System extension allow-listing
+	  - com.apple.servicemanagement: Background task / login item management
+	  - com.apple.notificationsettings: Notification center management
+
+	Tools:
+	  - iMazing Profile Editor (free): https://imazing.com/profile-editor
+	  - Apple Configurator 2 (Mac App Store)
+	  - profiledocs.com - Apple profile payload reference
+-->
+<dict>
+	<key>PayloadContent</key>
+	<!-- Inner payload array: each dict targets one preference domain or policy -->
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<!-- Human-readable name shown inside the profile detail pane -->
+			<string>PAYLOAD_DISPLAY_NAME</string>
+			<key>PayloadIdentifier</key>
+			<!-- Convention: profile identifier + UUID suffix -->
+			<string>com.example.profiles.PROFILE_NAME.GENERATED_UUID_02</string>
+			<key>PayloadType</key>
+			<!-- The preference domain to manage (reverse-domain notation) -->
+			<string>com.example.app.domain</string>
+			<key>PayloadUUID</key>
+			<!-- Generate with: uuidgen -->
+			<string>GENERATED_UUID_02</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+
+			<!-- Your managed preference keys go here -->
+			<key>SETTING_KEY_BOOL</key>
+			<true/>
+			<key>SETTING_KEY_STRING</key>
+			<string>value</string>
+			<key>SETTING_KEY_INT</key>
+			<integer>1</integer>
+		</dict>
+
+		<!-- Example: Privacy Preferences Policy Control (TCC/PPPC) payload -->
+		<!-- Grants apps access to protected resources without user prompts -->
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Privacy Preferences Policy Control</string>
+			<key>PayloadIdentifier</key>
+			<string>com.example.profiles.PROFILE_NAME.GENERATED_UUID_03</string>
+			<key>PayloadType</key>
+			<string>com.apple.TCC.configuration-profile-policy</string>
+			<key>PayloadUUID</key>
+			<string>GENERATED_UUID_03</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Services</key>
+			<dict>
+				<!-- Available service keys include:
+				     Accessibility, AppleEvents, BluetoothAlways,
+				     MediaLibrary, Photos, PostEvent, ScreenCapture,
+				     SystemPolicyAllFiles, SystemPolicyAppBundles,
+				     SystemPolicyDesktopFolder, SystemPolicyDocumentsFolder,
+				     SystemPolicyDownloadsFolder, SystemPolicyNetworkVolumes,
+				     SystemPolicyRemovableVolumes -->
+				<key>SystemPolicyAllFiles</key>
+				<array>
+					<dict>
+						<key>Allowed</key>
+						<true/>
+						<key>CodeRequirement</key>
+						<!-- Get with: codesign -dr - /path/to/app -->
+						<string>identifier "com.example.app" and anchor apple generic</string>
+						<key>Comment</key>
+						<string>Allow ExampleApp full disk access</string>
+						<key>Identifier</key>
+						<string>com.example.app</string>
+						<key>IdentifierType</key>
+						<!-- bundleID or path -->
+						<string>bundleID</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<!-- Profile name shown in System Settings > Profiles -->
+	<string>PROFILE_NAME</string>
+	<key>PayloadIdentifier</key>
+	<!-- Unique reverse-domain identifier for your profile -->
+	<!-- Convention: com.yourorg.profiles.ProfileName -->
+	<string>com.example.profiles.PROFILE_NAME</string>
+	<key>PayloadOrganization</key>
+	<string>ExampleOrganization</string>
+	<key>PayloadRemovalDisallowed</key>
+	<!-- true = requires admin password to remove -->
+	<true/>
+	<key>PayloadScope</key>
+	<!-- System = device-level, User = user-level -->
+	<string>System</string>
+	<key>PayloadType</key>
+	<!-- Always "Configuration" for the outer wrapper -->
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<!-- Generate with: uuidgen -->
+	<string>GENERATED_UUID_01</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
