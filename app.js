@@ -133,7 +133,8 @@
         (profile.organization ? '<p class="card-meta">' + escapeHtml(profile.organization) + '</p>' : '') +
         (desc ? '<p class="card-desc">' + desc + '</p>' : '') +
         '<div class="card-actions">' +
-          '<a class="btn btn-primary profile-install" href="' + escapeHtml(url) + '" download="' + escapeHtml(filename) + '" data-profile-url="' + escapeHtml(url) + '" data-profile-filename="' + escapeHtml(filename) + '">Install profile</a>' +
+          '<a class="btn btn-primary profile-install" href="' + escapeHtml(url) + '">Install profile</a>' +
+          '<button type="button" class="btn btn-secondary profile-save" data-profile-url="' + escapeHtml(url) + '" data-profile-filename="' + escapeHtml(filename) + '">Save to Files</button>' +
         '</div>' +
       '</div>';
     return li;
@@ -312,12 +313,12 @@
 
   if (profilesList) {
     profilesList.addEventListener('click', function (e) {
-      const link = e.target.closest('a.profile-install');
-      if (!link) return;
+      const saveBtn = e.target.closest('button.profile-save');
+      if (!saveBtn) return;
       e.preventDefault();
-      const url = link.getAttribute('data-profile-url') || link.href;
-      const filename = link.getAttribute('data-profile-filename') || 'profile.mobileconfig';
-      installProfileFile(url, filename);
+      const url = saveBtn.getAttribute('data-profile-url');
+      const filename = saveBtn.getAttribute('data-profile-filename') || 'profile.mobileconfig';
+      if (url) installProfileFile(url, filename);
     });
   }
 
